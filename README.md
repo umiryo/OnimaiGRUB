@@ -27,3 +27,5 @@ sudo ./install.sh
 cd ~/OnimaiGRUB
 sudo ./uninstall.sh
 ```
+## Gnome-Look page
+https://www.gnome-look.org/p/2136009
