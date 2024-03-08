@@ -1,5 +1,5 @@
 # Oniichan wa Oshimai! GRUB theme
-<img src="./Onimai/preview/preview.png" />
+<img src="./Onimai/preview/preview.png" > <br /> 
 Only for true fans of "Oniichan wa Oshimai!"
 # Requirements
 • Installed git <br /> 
