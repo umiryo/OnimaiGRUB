@@ -10,7 +10,7 @@ terminal-box: "terminal_*.png"
 
 + image {
                 top = 15%
-                left = 35%
+                left = 50%-400
                 width = 800
                 height = 100
                 file = "label-logo1.png"
