@@ -2,7 +2,7 @@
 <img src="./Onimai/preview/preview.png" > <br /> 
 ### -Only for true fans of "Oniichan wa Oshimai!"
 # What's new?
-• Added Russian font
+• Added Russian font <br />
 • Added option menu (can be installed by choice)
 # Requirements
 • Installed git <br /> <br />
