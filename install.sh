@@ -1,7 +1,7 @@
 #!/bin/bash
 ROOT_UID=0
 THEME_DIR="/usr/share/grub/themes"
-THEME_NAME="Onimai"
+THEME_NAME=""
 MAX_DELAY=20
 
 
@@ -45,6 +45,14 @@ function has_command() {
   command -v $1 > /dev/null
 }
 
+prompt -i "Would you like to have option menu under the boot menu?${CDEF}  (y/n): ${b_CWAR}${CDEF}"
+read answer0
+
+if [ "$answer0" = "y" ];then
+  THEME_NAME="Onimai"
+else
+  THEME_NAME="Onimai_no_menu"
+fi
 
 prompt -i "Begin installation?${CDEF}  (y/n): ${b_CWAR}${CDEF}"
 read answer
@@ -59,7 +67,7 @@ if [ "$UID" -eq "$ROOT_UID" ]; then
 
 
 
-  # Copying theme from /Onimai
+  # Copying theme
   prompt -i "Installing ${THEME_NAME} theme..."
   cp -a ${THEME_NAME}/* ${THEME_DIR}/${THEME_NAME}
   

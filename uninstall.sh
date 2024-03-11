@@ -1,7 +1,7 @@
 #!/bin/bash
 ROOT_UID=0
 THEME_DIR="/usr/share/grub/themes"
-THEME_NAME="Onimai"
+THEME_NAME=""
 MAX_DELAY=20
 
 
@@ -47,6 +47,14 @@ function has_command() {
   command -v $1 > /dev/null
 }
 
+prompt -i "Have you installed GRUB theme with option menu?${CDEF}  (y/n): ${b_CWAR}${CDEF}"
+read answer0
+
+if [ "$answer0" = "y" ];then
+  THEME_NAME="Onimai"
+else
+  THEME_NAME="Onimai_no_menu"
+fi
 
 prompt -i "Begin uninstallation?${CDEF}  (y/n): ${b_CWAR}${CDEF}"
 read answer
