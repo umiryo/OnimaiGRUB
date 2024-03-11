@@ -1,8 +1,9 @@
-# Oniichan wa Oshimai! GRUB theme v 0.2
+# Oniichan wa Oshimai! GRUB theme v 0.3
 <img src="./Onimai/preview/preview.png" > <br /> 
 ### -Only for true fans of "Oniichan wa Oshimai!"
 # What's new?
-Added Russian font
+• Added Russian font
+• Added option menu (can be installed by choice)
 # Requirements
 • Installed git <br /> <br />
  For Debian/Ubuntu
